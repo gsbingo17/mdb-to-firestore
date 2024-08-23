@@ -1,0 +1,16 @@
+{
+  "name": "mongodb-to-firestore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.9.0",
+    "mongodb": "^6.8.0"
+  }
+}

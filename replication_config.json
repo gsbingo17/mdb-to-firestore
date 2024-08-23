@@ -1,0 +1,19 @@
+{
+  "databasePairs": [
+    {
+      "source": {
+        "connectionString": "mongodb://localhost:27017,localhost:27018,localhost:27019?replicaSet=rs0",
+        "database": "test"
+      },
+      "target": {
+        "projectId": "learning-centre",
+        "databaseId": "test",
+        "collections": [
+          { "sourceCollection": "test", "targetCollection": "test" },
+          { "sourceCollection": "abc", "targetCollection": "abc" }
+        ]
+      }
+    }
+  ],
+  "saveThreshold": 1
+}
