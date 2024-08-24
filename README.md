@@ -20,7 +20,7 @@ This script replicates data from a MongoDB database to a Firestore database. It 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/gsbingo17/mongodb-to-firestore.git
+   git clone https://github.com/gsbingo17/mdb-to-firestore.git
    ```
 
 2. Install dependencies:
