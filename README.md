@@ -26,7 +26,7 @@ This script replicates data from a MongoDB database to a Firestore database. It 
 2. Install dependencies:
 
    ```bash
-   cd mongodb-to-firestore
+   cd mdb-to-firestore
    npm install
    ```
 ## Configuration
